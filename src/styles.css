@@ -25,7 +25,7 @@
 }
 
 :root {
-  --primary-font: "Nunito";
+  --primary-font: "Nunito", sans-serif;
   --second-font: "Playfair Display", serif;
   --branding-color: rgb(180, 152, 90);
   --secondary-color: #f9f7ff;
@@ -127,8 +127,4 @@ span.line {
 .nav-link {
   font-size: 26px;
   color: var(--third-color);
-  margin-right: 20px;
-}
-.nav-link:hover {
-  font-size: 28px;
 }
