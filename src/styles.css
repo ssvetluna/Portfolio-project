@@ -71,7 +71,7 @@ p {
 a:hover {
   opacity: 0.8;
   color: var(--third-color);
-  font-size: 15.3px;
+  font-size: 15.5px;
 }
 hr {
   width: 200px;
@@ -110,7 +110,7 @@ span.line {
 }
 .container {
   justify-content: center;
-  width: 90%;
+  width: 95%;
 }
 .img-fluid {
   height: 290px;
