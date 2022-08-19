@@ -1,6 +1,12 @@
-@media (max-width: 1200px) {
-  span {
+@media (max-width: 1300px) {
+  span.line {
     display: none;
+  }
+  h4.mt-5 {
+    text-align: center;
+  }
+  h3.mt-4 {
+    text-align: center;
   }
 }
 @media (max-width: 900px) {
@@ -8,7 +14,6 @@
     font-size: 48px;
     margin: 0;
   }
-
   h4.mt-5 {
     font-size: 28px;
     text-align: center;
@@ -55,7 +60,7 @@ p {
   color: var(--branding-color);
   font-weight: 800;
 }
-a {
+.col-9 a {
   text-decoration: none;
   color: var(--third-color);
   font-size: 15px;
@@ -71,7 +76,7 @@ a:hover {
 hr {
   width: 200px;
 }
-span {
+span.line {
   border-bottom: 2px solid var(--branding-color);
   padding: 0 320px 0 0;
   text-transform: capitalize;
@@ -118,4 +123,12 @@ span {
 .col-9 {
   border-right: 1.5px solid var(--branding-color);
   text-align: right;
+}
+.nav-link {
+  font-size: 26px;
+  color: var(--third-color);
+  margin-right: 20px;
+}
+.nav-link:hover {
+  font-size: 28px;
 }
