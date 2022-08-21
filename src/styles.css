@@ -167,3 +167,25 @@ span.line {
 .contact-image {
   margin-right: 90px;
 }
+footer {
+  height: 90px;
+  max-height: 10vmax;
+  padding: 20px 0 0 0;
+  background: rgb(224, 200, 150, 0.6);
+  width: 100vmax;
+  text-align: center;
+}
+footer a {
+  color: var(--secondary-color);
+  font-size: 32px;
+  padding: 20px;
+  font-weight: bold;
+}
+footer a:hover {
+  color: var(--third-color);
+  font-size: 33px;
+}
+#footer-year {
+  font-size: 20px;
+  text-align: center;
+}
