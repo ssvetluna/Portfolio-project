@@ -28,6 +28,12 @@
   .row .row-collection {
     text-align: center;
   }
+  .col-lg-9 a {
+    font-size: 12px !important;
+  }
+  #footer-year {
+    font-size: 12px !important;
+  }
 }
 @media (max-width: 1400px) {
   .row .row-collection {
@@ -82,7 +88,7 @@ p {
 }
 .col-lg-9 {
   border-right: 1.5px solid var(--branding-color);
-  text-align: right;
+  text-align: center;
 }
 .col-lg-9 a {
   text-decoration: none;
