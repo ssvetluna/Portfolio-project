@@ -34,6 +34,9 @@
   #footer-year {
     font-size: 12px !important;
   }
+  .navbar-brand {
+    display: none;
+  }
 }
 @media (max-width: 1400px) {
   .row .row-collection {
