@@ -161,3 +161,9 @@ span.line {
 .collection-container {
   flex-direction: column;
 }
+#contact {
+  font-size: 32px;
+}
+.contact-image {
+  margin-right: 90px;
+}
