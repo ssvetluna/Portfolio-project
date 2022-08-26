@@ -12,7 +12,8 @@
 @media (max-width: 900px) {
   h1.pt-4.mt-5 {
     font-size: 56px;
-    margin: 0;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
   .col-lg-6 h2 {
     font-size: 36px;
@@ -31,11 +32,15 @@
   .col-lg-9 a {
     font-size: 12px !important;
   }
+
   #footer-year {
     font-size: 12px !important;
   }
   .navbar-brand {
     display: none;
+  }
+  #contact {
+    font-size: 16px !important;
   }
 }
 @media (max-width: 1400px) {
@@ -90,7 +95,7 @@ p {
   font-weight: 800;
 }
 .col-lg-9 {
-  border-right: 1.5px solid var(--branding-color);
+  border-right: 1px solid var(--branding-color);
   text-align: center;
 }
 .col-lg-9 a {
@@ -135,8 +140,8 @@ span.line {
 }
 .container {
   justify-content: center;
-  width: 95%;
 }
+
 .img-home {
   height: 290px;
   border-radius: 12px;
